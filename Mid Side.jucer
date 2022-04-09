@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="sSq05t" name="Mid Side" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="D Eatch Audio">
   <MAINGROUP id="SVS3mD" name="Mid Side">
     <GROUP id="{A779A368-B338-9A29-66B3-F3EFEF12206E}" name="Source">
       <FILE id="OJhfZM" name="PluginProcessor.cpp" compile="1" resource="0"
@@ -33,12 +34,10 @@
         <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
         <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
-        <MODULEPATH id="ff_meters" path="../../../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
   <MODULES>
-    <MODULE id="ff_meters" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
     <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
